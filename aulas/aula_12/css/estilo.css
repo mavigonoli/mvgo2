@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+
+.tabela{
+    position: relative;
+    top: 30px;
+    left:30px;
+    background-color: rgb(0, 120, 255);
+    width: 50%;
+}
+
+.tabela table{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(120, 120, 120);
+    border-collapse: collapse;
+}
+
+.tabela table td, .tabela table th{
+    border: 3px  solid rgb(65, 65, 65);
+}
+
+.tabela table th{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.tabela table tr:hover{
+    background-color: rgb( 100, 100, 100);
+}

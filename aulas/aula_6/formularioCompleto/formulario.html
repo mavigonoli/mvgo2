@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h2>Sugestões para o Colégio</h2>
+
+    <form action="feedback.html" method="post">
+        
+        <fieldset>
+
+            <legend>Deixe aqui sua sugestão</legend>
+
+            <p>
+            <label for="idnome"> Nome: </label>
+            <input type="text" id="idnome" size="50"/>
+            </p>
+
+            <p>
+            <label for="idemail"> Email: </label>
+            <input type="text" id="idemail" size="50"/>
+            </p>
+
+            <p>
+            <label for="idfone"> Telefone: </label>
+            <input type="text" id="idfone" size="15" maxlength="15"/>
+            </p>
+
+            <p>
+                <label for="idaddress"> Endereço:: </label>
+                <input type="text" id="idadress" size="60" maxlength="60"/>
+            </p>
+
+            <p>
+            <label for="idtata"> Data de Nascimento: </label>
+            <input type="date" id="iddata"/>
+            </p>
+
+
+            <p>
+            <label for="idserie"> Série: </label>
+            <select name="serie" id="idserie" >
+            <option> Selecione </option>
+            <optgroup label="Ensino Fundamental">
+                <option value="6ano"> 6°Ano </option>
+                <option value="7ano"> 7°Ano </option>
+                <option value="8ano"> 8°Ano </option>
+                <option value="9ano"> 9°Ano </option>
+            </optgroup>
+            <optgroup label="Ensino Médio">
+                <option value="1serie"> 1ªSérie </option>
+                <option value="2serie"> 2ªSérie </option>
+                <option value="3serie"> 3ªSérie </option>
+                <option value="magisterio"> Curso de Magistério </option>
+            </optgroup>
+            <optgroup label="Técnico:">
+                <option value="1serie"> 1ªDS </option>
+                <option value="2serie"> 2ªDS </option>
+            </optgroup>
+            </select>
+            </p>
+
+            <p>
+            <label for="idgenero"> Gênero: </label>
+            <input type="radio" name="genero" value="masc" id="idmasc"/>
+            <label for="idmasc"> Masculino </label>
+
+            <input type="radio" name="genero" value="fem" id="idfem"/>
+            <label for="idfem"> Feminino </label>
+
+            <input type="radio" name="genero" value="outro" id="idoutro"/>
+            <label for="idoutro"> Outro </label>
+            </p>
+
+            <span>Assunto:</span> <br>
+            <table border="5">
+                <tr>
+                    <td><input type="checkbox" id="idsala" name="assunto" value="sala"/>
+                        <label for="idsala">Sala de aula</label>
+                    </td>
+
+                    <td><input type="checkbox" id="idcantina" name="assunto" value="cantina"/>
+                        <label for="idsala">Cantina</label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="idlab" name="assunto" value="lab"/>
+                        <label for="idsala">Laboratório</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" id="idsecretaria" name="assunto" value="secretaria"/>
+                        <label for="idsecretaria">Secretaria</label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="idsalaprof" name="assunto" value="salaProfessor"/>
+                        <label for="idsalaprof">Sala dos professores</label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="idoutros" name="assunto" value="outros"/>
+                        <label for="idoutros">Outro</label>
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+                <label for="idsugestao">Sugestão:</label> <br>
+                <textarea if="idsugestao" cols="60" rows="5"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" id="idenviar" value="Enviar"/>
+                <input type="reset" id="idapagar" value="Limpar"/>
+            </p>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

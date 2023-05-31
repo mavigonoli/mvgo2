@@ -1,0 +1,36 @@
+
+body{
+    background:linear-gradient(to right, rgb(0, 154, 255), rgb(0, 0, 0))
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+body a:hover{
+    color: rgb(255, 115, 0);
+}
+
+body a{
+    color: rgb(255, 255, 255);
+}
+
+p a{
+    color: rgb(0, 0, 0);
+    text-decoration:line-through red;
+}
+
+p a:hover{ /*Muda a cor ao passar com o mouse*/
+    color: red;
+    text-decoration:underline;
+}
+
+img{
+    width: 600px; /*Largura*/
+    height: 500px; /*Altura*/
+}

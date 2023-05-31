@@ -1,0 +1,129 @@
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    background: linear-gradient(to right, rgb(0, 0, 130), rgb(0, 100, 255)) ;
+    display: flex;
+    width: 80%;
+    left: 10%;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.header img{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 5px;
+}
+
+.header h2{
+    position: relative;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    left: 35%;
+    top: 10%;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    background: linear-gradient(to right, rgb(0, 0, 130), rgb(0, 100, 255));
+    width: 80%;
+    left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.main h3{
+    position: relative;
+    color: aliceblue;
+    left: 46%;
+}
+
+.main table{
+    position: relative;
+    right: 1%;
+    font-family: 'Times New Roman';
+}
+
+.main table tr td a{
+    color: aliceblue;
+    right: 50%;
+    text-decoration: none;
+}
+
+.main table tr td a:hover{
+    color: rgb(184, 184, 184);
+    text-decoration: underline;
+}
+
+.section{
+    position: relative;
+    text-align: center;
+    background-color: aliceblue;
+    width: 80%;
+    left: 10%;
+    height: 880px;
+}
+
+.section table{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 4%;
+    background-color: rgb(200, 200, 200);
+    border-collapse: collapse;
+    border-top-width: 4px;
+    border-left-width: 4px;
+    border: 5px solid rgb(0, 0, 200);
+}
+
+.section table tr th{
+    border: 2px solid rgb(0, 0, 200);
+    background-color: rgb(0, 0, 90);
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    height: 30px;
+}
+
+.section table tr td{
+    border: 2px solid blue;
+    height: 60px;
+}
+
+.section table tr:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+.section table tr td a{
+    text-decoration: none;
+}
+
+.section table tr td a:hover{
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: rgb(0, 0, 130);
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.footer h4{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    padding: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
